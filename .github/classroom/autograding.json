@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Shape Test",
+      "setup": "javac -d . shapes/Shape.java shapes/Rectangle.java shapes/Circle.java shapes/ShapeMain.java",
+      "run": "echo \"2\nRECTANGLE\nRed true\n4.0 5.0\nCIRCLE\nBlue false\n3.0\" | java shapes.ShapeMain",
+      "comparison": "contains",
+      "output": "[ Rectangle ]",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
