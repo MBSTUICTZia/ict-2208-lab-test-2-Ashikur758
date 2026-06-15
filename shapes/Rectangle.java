@@ -23,7 +23,7 @@ public class Rectangle extends Shape {
 
     @Override
     public String toString() {
-        return "[ shapes.Rectangle ]\n" +
+        return "[ Rectangle ]\n" +
                 super.toString() + "\n" +
                 "Width : " + width + "\n" +
                 "Length: " + length + "\n" +
